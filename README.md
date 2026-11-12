@@ -30,10 +30,4 @@ python prepare_paper_figures.py --data generated/reproduction --output generated
 | `maps/`、`模型假设/` | 两张地图及建模规则 |
 | `outputs/` | 实验配置、训练和评估日志、Q 表、图表和汇总 |
 | `报告/`、`参考文献/` | 模型、算法设计、实验分析和引用 |
-| `论文/强化学习作业论文/` | 论文 PDF、LaTeX 源码、编译脚本与模板许可 |
 
-论文可在 XeLaTeX 和 BibTeX 加入 PATH 后用 PowerShell 编译。
-
-```powershell
-& './论文/强化学习作业论文/build.ps1'
-```
