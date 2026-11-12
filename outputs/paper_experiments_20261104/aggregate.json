@@ -1,0 +1,184 @@
+{
+  "SARSA": {
+    "original": {
+      "training_steps": {
+        "mean": 351909.8,
+        "sd": 7433.4976760607115,
+        "min": 346076.0,
+        "max": 363151.0
+      },
+      "training_timeouts": {
+        "mean": 37.0,
+        "sd": 4.242640687119285,
+        "min": 34.0,
+        "max": 44.0
+      },
+      "last100_return": {
+        "mean": -16.695999999999998,
+        "sd": 0.0786129760281338,
+        "min": -16.81,
+        "max": -16.59
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 259362.2,
+        "sd": 28805.448819624387,
+        "min": 209734.0,
+        "max": 280187.0
+      }
+    },
+    "changed": {
+      "training_steps": {
+        "mean": 442610.4,
+        "sd": 5370.197556887456,
+        "min": 436383.0,
+        "max": 449164.0
+      },
+      "training_timeouts": {
+        "mean": 84.0,
+        "sd": 8.689073598491383,
+        "min": 78.0,
+        "max": 97.0
+      },
+      "last100_return": {
+        "mean": -18.95,
+        "sd": 0.12020815280171303,
+        "min": -19.09,
+        "max": -18.77
+      },
+      "mean_arrival_time": {
+        "mean": 18.0,
+        "sd": 0.0,
+        "min": 18.0,
+        "max": 18.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 284348.6,
+        "sd": 5604.819916821592,
+        "min": 278187.0,
+        "max": 292060.0
+      }
+    },
+    "transfer": {
+      "successes": 0,
+      "episodes": 500,
+      "success_rate": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_arrival_time": null
+    }
+  },
+  "Q-learning": {
+    "original": {
+      "training_steps": {
+        "mean": 352642.4,
+        "sd": 2257.1781719660503,
+        "min": 350188.0,
+        "max": 356046.0
+      },
+      "training_timeouts": {
+        "mean": 34.0,
+        "sd": 5.1478150704935,
+        "min": 30.0,
+        "max": 43.0
+      },
+      "last100_return": {
+        "mean": -17.023999999999997,
+        "sd": 0.14993331851193045,
+        "min": -17.19,
+        "max": -16.78
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 208352.6,
+        "sd": 3272.5841929582193,
+        "min": 204403.0,
+        "max": 213265.0
+      }
+    },
+    "changed": {
+      "training_steps": {
+        "mean": 427272.8,
+        "sd": 1886.877764986381,
+        "min": 424623.0,
+        "max": 429778.0
+      },
+      "training_timeouts": {
+        "mean": 71.6,
+        "sd": 4.560701700396552,
+        "min": 65.0,
+        "max": 76.0
+      },
+      "last100_return": {
+        "mean": -18.988000000000003,
+        "sd": 0.25955731544304467,
+        "min": -19.28,
+        "max": -18.76
+      },
+      "mean_arrival_time": {
+        "mean": 18.0,
+        "sd": 0.0,
+        "min": 18.0,
+        "max": 18.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 265633.6,
+        "sd": 3182.9284943271973,
+        "min": 262000.0,
+        "max": 269029.0
+      }
+    },
+    "transfer": {
+      "successes": 0,
+      "episodes": 500,
+      "success_rate": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_arrival_time": null
+    }
+  }
+}

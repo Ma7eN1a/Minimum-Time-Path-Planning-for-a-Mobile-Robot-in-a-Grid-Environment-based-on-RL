@@ -1,0 +1,98 @@
+{
+  "episodes": 100,
+  "seed": 1000003,
+  "epsilon": 0.0,
+  "successes": 100,
+  "timeouts": 0,
+  "success_rate": 1.0,
+  "mean_arrival_time": 18.0,
+  "min_arrival_time": 18,
+  "max_arrival_time": 18,
+  "first_episode_path": [
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "first_episode_success": true,
+  "training_steps": 428085,
+  "training_timeouts": 76,
+  "training_episodes": 5000,
+  "bfs_shortest_steps": 18,
+  "confirmation_steps": 268427,
+  "training_seed": 3,
+  "last100_return": -19.28,
+  "evaluation_optimal_successes": 100
+}

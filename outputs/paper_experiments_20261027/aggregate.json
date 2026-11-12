@@ -1,0 +1,189 @@
+{
+  "SARSA": {
+    "original": {
+      "training_steps": {
+        "mean": 351909.8,
+        "sd": 7433.4976760607115,
+        "min": 346076.0,
+        "max": 363151.0
+      },
+      "training_timeouts": {
+        "mean": 37.0,
+        "sd": 4.242640687119285,
+        "min": 34.0,
+        "max": 44.0
+      },
+      "last100_return": {
+        "mean": -16.695999999999998,
+        "sd": 0.0786129760281338,
+        "min": -16.81,
+        "max": -16.59
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 259362.2,
+        "sd": 28805.448819624387,
+        "min": 209734.0,
+        "max": 280187.0
+      }
+    },
+    "changed": {
+      "training_steps": {
+        "mean": 369569.2,
+        "sd": 2663.942979870252,
+        "min": 365741.0,
+        "max": 372486.0
+      },
+      "training_timeouts": {
+        "mean": 48.0,
+        "sd": 4.949747468305833,
+        "min": 40.0,
+        "max": 52.0
+      },
+      "last100_return": {
+        "mean": -16.880000000000003,
+        "sd": 0.2007485989988484,
+        "min": -17.05,
+        "max": -16.61
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 278325.0,
+        "sd": 11188.704817806214,
+        "min": 266887.0,
+        "max": 295618.0
+      }
+    },
+    "transfer": {
+      "successes": 0,
+      "episodes": 500,
+      "success_rate": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_arrival_time": null
+    }
+  },
+  "Q-learning": {
+    "original": {
+      "training_steps": {
+        "mean": 352642.4,
+        "sd": 2257.1781719660503,
+        "min": 350188.0,
+        "max": 356046.0
+      },
+      "training_timeouts": {
+        "mean": 34.0,
+        "sd": 5.1478150704935,
+        "min": 30.0,
+        "max": 43.0
+      },
+      "last100_return": {
+        "mean": -17.023999999999997,
+        "sd": 0.14993331851193045,
+        "min": -17.19,
+        "max": -16.78
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 208352.6,
+        "sd": 3272.5841929582193,
+        "min": 204403.0,
+        "max": 213265.0
+      }
+    },
+    "changed": {
+      "training_steps": {
+        "mean": 372748.6,
+        "sd": 4482.352986992435,
+        "min": 368188.0,
+        "max": 377905.0
+      },
+      "training_timeouts": {
+        "mean": 45.0,
+        "sd": 4.301162633521313,
+        "min": 41.0,
+        "max": 51.0
+      },
+      "last100_return": {
+        "mean": -16.914,
+        "sd": 0.11844830095868765,
+        "min": -17.0,
+        "max": -16.71
+      },
+      "mean_arrival_time": {
+        "mean": 16.0,
+        "sd": 0.0,
+        "min": 16.0,
+        "max": 16.0
+      },
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "confirmed_count": 5,
+      "confirmation_steps": {
+        "mean": 225571.2,
+        "sd": 4011.2250248521336,
+        "min": 221452.0,
+        "max": 230049.0
+      }
+    },
+    "transfer": {
+      "successes": 500,
+      "episodes": 500,
+      "success_rate": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "mean_arrival_time": {
+        "mean": 16.37,
+        "sd": 0.057008771254957395,
+        "min": 16.29,
+        "max": 16.43
+      }
+    }
+  }
+}

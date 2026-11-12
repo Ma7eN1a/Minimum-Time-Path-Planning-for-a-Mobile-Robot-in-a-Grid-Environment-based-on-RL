@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "episodes": 5000,
+  "checkpoint_interval": 250,
+  "checkpoint_episodes": 20,
+  "confirmation_checks": 3,
+  "final_eval_episodes": 100,
+  "map_change": {
+    "removed": [
+      0,
+      2
+    ],
+    "added": [
+      1,
+      9
+    ]
+  },
+  "original_shortest": 16,
+  "changed_shortest": 16,
+  "budget": "equal training episodes; report actual interaction steps; not equal step budgets",
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "gridworld.py": "373c8b5cd61414261120a641f6857620147d7e9ca841a9ea34d6023b5c30dcd8",
+    "sarsa.py": "c9c016594cbacc365d417f5afe6132b94a7a34f6fa3d3272240b72d615b23593",
+    "q_learning.py": "31e3d3faedbc6b16657e5c63510db55427b737cbebdaf257cea8d581df088e77",
+    "run_paper_experiments.py": "c92e87d15b178bb3b5aeaa56cd5d0609a06539c3b9894f6faa7ae8cb565fff5e"
+  }
+}

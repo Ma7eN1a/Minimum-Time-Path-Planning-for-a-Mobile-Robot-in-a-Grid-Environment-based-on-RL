@@ -1,0 +1,13 @@
+{
+  "source": "outputs/q_learning/design_validation_seed42/training_log.csv",
+  "metric": "episode_return",
+  "x_axis": "cumulative_steps",
+  "episodes": 5000,
+  "total_training_steps": 353078,
+  "smoothing_window": 100,
+  "smoothed_points": 4901,
+  "first_window_mean": -585.1999999999999,
+  "last_window_mean": -16.74,
+  "minimum_episode_return": -1000.0,
+  "maximum_episode_return": -16.0
+}

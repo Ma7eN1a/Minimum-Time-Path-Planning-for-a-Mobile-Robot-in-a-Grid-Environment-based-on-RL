@@ -1,0 +1,111 @@
+{
+  "algorithm": "Q-learning",
+  "config": {
+    "episodes": 5000,
+    "alpha": 0.1,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_episodes": 4000,
+    "seed": 42,
+    "eval_episodes": 100
+  },
+  "environment": {
+    "gamma": 1.0,
+    "max_steps": 1000,
+    "reward_per_action": -1,
+    "time_per_action": 1
+  },
+  "map": {
+    "name": "assignment_original",
+    "source": "题目/算法作业-1.pdf，第1页图1",
+    "coordinate_system": "zero-based (row, column), origin at top-left",
+    "rows": 10,
+    "cols": 10,
+    "start": [
+      8,
+      1
+    ],
+    "goal": [
+      0,
+      9
+    ],
+    "obstacles": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        7
+      ]
+    ]
+  },
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "q_learning.py": "31e3d3faedbc6b16657e5c63510db55427b737cbebdaf257cea8d581df088e77",
+    "train_q_learning.py": "19ce8be8c9de49cd48392b38efe880c09fe38c9d6eb2cf693d352c0a90620db8",
+    "gridworld.py": "373c8b5cd61414261120a641f6857620147d7e9ca841a9ea34d6023b5c30dcd8",
+    "sarsa.py": "c9c016594cbacc365d417f5afe6132b94a7a34f6fa3d3272240b72d615b23593",
+    "train_sarsa.py": "f19f68e2756b16649666ec244c783e39ae70a4a2b64cbecf27c8f60c99ddf5a4"
+  },
+  "references": [
+    "R02",
+    "R04",
+    "R06"
+  ]
+}

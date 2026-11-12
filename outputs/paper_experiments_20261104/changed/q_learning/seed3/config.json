@@ -1,0 +1,95 @@
+{
+  "algorithm": "Q-learning",
+  "config": {
+    "episodes": 5000,
+    "alpha": 0.1,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_episodes": 4000,
+    "seed": 3,
+    "eval_episodes": 100
+  },
+  "map": {
+    "name": "large_layout_change_v2",
+    "source": "本项目2026-11-04预先固定的新地图设计：横向屏障与纵向墙体",
+    "coordinate_system": "zero-based (row, column), origin at top-left",
+    "rows": 10,
+    "cols": 10,
+    "start": [
+      8,
+      1
+    ],
+    "goal": [
+      0,
+      9
+    ],
+    "obstacles": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  },
+  "environment": {
+    "gamma": 1.0,
+    "max_steps": 1000,
+    "reward_per_action": -1,
+    "time_per_action": 1
+  }
+}

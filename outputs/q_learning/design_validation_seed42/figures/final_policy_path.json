@@ -1,0 +1,87 @@
+{
+  "episode": 1,
+  "success": true,
+  "truncated": false,
+  "elapsed_time": 16,
+  "arrival_time": 16,
+  "episode_return": -16,
+  "seed": 1000042,
+  "epsilon": 0.0,
+  "path": [
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "coordinate_system": "zero-based (row, column), top-left origin",
+  "blocked_steps": 0,
+  "bfs_shortest_steps": 16,
+  "matches_shortest_length": true,
+  "matches_historical_first_path": true,
+  "q_table_sha256": "106f9d67faf22475679ff6d04bd9b6c210f2fa3c91765df2504ca328ab13fbaf",
+  "source_run": "outputs/q_learning/design_validation_seed42"
+}
